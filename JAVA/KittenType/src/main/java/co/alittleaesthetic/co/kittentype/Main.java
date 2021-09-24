@@ -14,6 +14,8 @@ public class Main {
         pets pet = new pets("Kitty", pets.PetClass.BABY);
         System.out.print(pet.name);
         
-        
+        MainWindow mw = new MainWindow();
+        mw.setStats(pet);
+        mw.setVisible(true);
     }
 }
